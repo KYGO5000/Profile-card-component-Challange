@@ -1,0 +1,126 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(185, 75%, 39%);
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+#contact{
+    position: relative;
+    top: 130px;
+    width: 350px;
+    margin: auto;
+    margin-bottom:20px ;
+    border-radius: 20px;
+    background-color: white;
+}
+.picture{
+    position: relative;
+    left: 120px;
+    bottom: 55px;
+    border-radius: 60px;
+    border:6px solid white 
+}
+.blue{
+    position: relative;
+    border-radius: 20px 20px 0px 0px ;
+
+}
+.text{
+    font-size:18px;
+    font-family: 'Kumbh Sans', sans-serif; 
+    font-weight: 400, 700;
+}
+.text, .num26{
+    color:  hsl(227, 10%, 46%);
+}
+.heading{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size:18px;
+}
+.num26{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size:18px;
+}
+.top-file{
+    margin: -25px auto;
+    margin-bottom:30px ;
+    width: 60%;
+    text-align: center;
+}
+.top-file h2{
+    display: inline;
+    margin: 4px;
+    font-weight: 400, 700;
+}
+.figures{
+    width: 80%;
+    column-count: 3;
+    text-align: center;
+    margin: 30px auto;
+    margin-bottom:20px ;
+    padding: 2px;
+}
+.size{
+    width: 75px;
+    margin: 0px;
+    margin-bottom: 8px;
+    padding: 1px;
+}
+hr{
+    opacity: 0.5;
+}
+.bottom img{
+    position:absolute;
+    right: 0px;
+    top: 360px;
+    z-index: -1;
+    width: 600px;
+    height:300px ; 
+}
+.top-img img {
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    width: 590px;
+    height:150px ;
+}
+/*Media Queries= resolustion= 375px, 1440px*/
+@media screen and (min-width:375px){
+    #contact {
+        top: 100px;
+        left: 1px;
+    }
+    .blue{
+        border-radius: 20px 20px 0px 0px ;
+    }
+    .top-img img{
+        height: 160px;
+        width: 50%;
+    }
+    .bottom img {
+       width: 50%; 
+       height: 250px; 
+    }
+    .attribution{
+        bottom: 100px;
+    }
+}
+@media screen and (min-width:1440px){
+    .top-img img{
+        width: 44%;
+        height: 440px;
+    }
+    .bottom img{
+        width: 46%;
+        height: 350px;
+        top: 300px;
+    }
+}
