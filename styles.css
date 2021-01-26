@@ -124,3 +124,17 @@ hr{
         top: 300px;
     }
 }
+@media screen and (max-width:1440px){
+    .top-img img{
+        width: 45%;
+        height: 400px;
+    }
+    .bottom img{
+        width: 46%;
+        height: 350px;
+        top: 310px;
+    }
+    .attribution{
+        margin-top: 120px;
+    }
+}
